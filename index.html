@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Quick Reply IA - La app que agiliza tus respuestas y te ayuda a optimizar tu tiempo">
+    <title>Quick Reply IA - Respuestas inteligentes en segundos</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+            color: #fff;
+            padding: 3rem 2rem;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.95;
+        }
+
+        nav {
+            background: #fff;
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #0d6efd;
+        }
+
+        main {
+            padding: 3rem 2rem;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section {
+            background: #fff;
+            margin-bottom: 2rem;
+            padding: 2.5rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            color: #0d6efd;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+            border-bottom: 3px solid #0d6efd;
+            padding-bottom: 0.5rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            font-size: 1.05rem;
+            color: #495057;
+        }
+
+        strong {
+            color: #212529;
+        }
+
+        form {
+            margin-top: 2rem;
+        }
+
+        .form-notice {
+            background: #e7f3ff;
+            border-left: 4px solid #0d6efd;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            border-radius: 5px;
+            font-size: 0.95rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: #495057;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 0.75rem;
+            margin-bottom: 1.5rem;
+            border: 2px solid #dee2e6;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-family: inherit;
+            transition: border-color 0.3s;
+        }
+
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: #0d6efd;
+        }
+
+        button {
+            background: #0d6efd;
+            color: #fff;
+            padding: 0.75rem 2rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background: #0a58ca;
+        }
+
+        footer {
+            background: #212529;
+            color: #fff;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        footer p {
+            color: rgba(255,255,255,0.8);
+            margin-bottom: 0.5rem;
+        }
+
+        footer a {
+            color: #5db3ff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .disclaimer {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 1rem;
+            margin: 2rem 0;
+            border-radius: 5px;
+        }
+
+        a {
+            color: #0d6efd;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #0a58ca;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav ul {
+                gap: 1rem;
+            }
+
+            section {
+                padding: 1.5rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Quick Reply IA</h1>
+        <p>Desarrollado en Argentina</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#about">Sobre Nosotros</a></li>
+            <li><a href="#contact">Contacto</a></li>
+            <li><a href="terms.html">Términos</a></li>
+            <li><a href="privacy.html">Privacidad</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Bienvenido</h2>
+            <p>La app que agiliza tus respuestas y te ayuda a optimizar tu tiempo.</p>
+            <p>Respuestas rápidas, simples y efectivas, para que puedas concentrarte en lo que realmente importa.</p>
+        </section>
+
+        <section id="about">
+            <h2>Sobre Nosotros</h2>
+            <p>Quick Reply IA nació de la visión de Diego Aragón, fundador y desarrollador, con el objetivo de crear una herramienta que simplifique la comunicación diaria.</p>
+            <p>Inspirado en la necesidad de optimizar tiempo y mejorar la productividad, Diego diseñó una app intuitiva, confiable y accesible para todos los usuarios.</p>
+            <p>Nuestra misión es <strong>facilitar la interacción digital</strong>, ayudando a que cada mensaje tenga el impacto correcto, sin perder tiempo ni complicaciones.</p>
+            <p>Con Quick Reply IA, cada respuesta cuenta.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Email: <a href="mailto:contacto@quickreplyia.com">contacto@quickreplyia.com</a></p>
+            <p>Ciudad/País: Buenos Aires, Argentina</p>
+            
+            <div class="form-notice">
+                <strong>Nota:</strong> El formulario de contacto es únicamente informativo. Para consultas urgentes, escribí directamente al email indicado.
+            </div>
+
+            <form action="mailto:contacto@quickreplyia.com" method="GET">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="subject" placeholder="Tu nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="from" placeholder="tu@email.com" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="body" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Quick Reply IA</p>
+        <p>Fundado y desarrollado por Diego Aragón, Buenos Aires, Argentina</p>
+        <p style="margin-top: 1.5rem; font-size: 0.9rem;">
+            Quick Reply IA no ofrece asesoramiento legal, médico ni financiero.<br>
+            Todas las respuestas son sugerencias generadas por inteligencia artificial.
+        </p>
+        <p style="margin-top: 1rem;">
+            <a href="terms.html">Términos y Condiciones</a> | 
+            <a href="privacy.html">Política de Privacidad</a>
+        </p>
+    </footer>
+</body>
+</html>
